@@ -2,8 +2,8 @@
 
 class addnumbers
 {
-    var $num1;
-    var $num2;
+    public $num1;
+    public $num2;
 
     function addtwono()
     {
@@ -14,7 +14,8 @@ class addnumbers
 $add = new addnumbers();
 $add->num1=5;
 $add->num2=10;
-echo $add->addtwono();
 
+// print_r($add);
+echo $add->addtwono();
 
 ?>
