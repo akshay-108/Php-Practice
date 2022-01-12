@@ -1,6 +1,6 @@
 <?php
 
-$original_array=array(1," ",2," ",3," ",4);
+$original_array=array(1,2,3,4);
 
 echo 'original_array' . "\n";
 foreach($original_array as $x)
@@ -17,6 +17,7 @@ echo 'new_array' . "\n";
 foreach($original_array as $x)
 {
     print_r($x);
+    echo "\n";
 }
 echo "\n";
 ?>

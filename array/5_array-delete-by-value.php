@@ -5,7 +5,7 @@ var_dump($arr);
 
 $val='Hello';
 $key=array_search($val,$arr);
-if($key!==false)
+if($key)
 {
     unset($arr[$key]);
 }
