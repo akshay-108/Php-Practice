@@ -6,12 +6,14 @@ class car
 
     public function fill($fuel)
     {
+        echo "1";
         $this->tank+=$fuel;
         return $this;
     }
 
     public function ride($miles)
     {
+        echo "2";
         $gallons = $miles/50;
         $this->tank -= $gallons;
         return $this;
