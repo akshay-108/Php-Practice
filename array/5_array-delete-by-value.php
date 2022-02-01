@@ -9,6 +9,5 @@ if($key)
 {
     unset($arr[$key]);
 }
-
 var_dump($arr);
 ?>
