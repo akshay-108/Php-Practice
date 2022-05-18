@@ -1,0 +1,23 @@
+.wrapper{
+    background-color: #ccc;
+    width: 344px;
+    margin: auto;
+    padding:40px;
+}
+.logintag{
+    width: 94%;
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+input.loginbtn {
+    padding: 10px;
+    font-size: 14px;
+    width: 132px;
+    margin: 0 31%;
+    cursor: pointer;
+}
+
+h1.heading {
+    margin: 0 27%;
+}
