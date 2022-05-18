@@ -14,6 +14,8 @@ echo "\n";
 // create array
 $array_diff=array('Akshay',24,'Development');
 
+print_r($array_diff);
+
 // delete array index
 $array_diff=array_diff($array_diff,[24]);
 
